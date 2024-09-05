@@ -1,0 +1,89 @@
+body{
+
+    background-image: url(night-lights.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(108, 174, 232);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.weatherForm{
+   margin: 20px;
+
+}
+.cityInput{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    width:200px;
+
+}
+button[type="submit"]{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color:hsl(241, 93%, 54%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+button[type="submit"]:hover{
+    background-color: hsla(218, 92%, 35%, 0.842); 
+}
+.card{
+    background: linear-gradient(180deg , rgba(53, 53, 255, 0.649) , rgba(173, 0, 0, 0.551)) ;
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(5px); 
+    background-color: rgba(113, 189, 255, 0.045); 
+}
+h1{
+  
+    margin-top: 0;
+    margin-bottom: 25px;
+
+}
+p{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    
+}
+.cityDisplay,.tempDisplay {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+.humidityDisplay{
+   font-weight: bold;
+   margin-bottom: 25px;
+}
+.descDisplay{
+   font-size:italic ;
+   font-weight: bold;
+   font-size: 2rem;
+}
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: black ;
+}
+
+
+    
